@@ -1,0 +1,21 @@
+{
+  "name": "mix-get-openid",
+  "version": "0.0.1",
+  "description": "前端获取openid, copyright mix corp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mix utils"
+  ],
+  "author": "DestinyXie",
+  "dependencies": {
+    "mix-social-log": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DestinyXie/MixGetOpenid.git"
+  },
+  "license": "MIT"
+}

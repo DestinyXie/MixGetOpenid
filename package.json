@@ -1,6 +1,6 @@
 {
   "name": "mix-get-openid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "前端获取openid, copyright mix corp.",
   "main": "index.js",
   "scripts": {

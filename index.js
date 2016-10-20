@@ -10,12 +10,12 @@ var socialLog = require('mix-social-log'); // 直接引入js也可以
 function getOpenid(custom_config) {
     // 配置项
     var appConfig = {
-        openidCookieName: 'jjcj0926_openid', // 保存openid的cookie名字
-        appName: 'jueji', // 公众号名字，后台需要有存他的appid和appsecret
-        appId: 'wxfb62208194bb073a', // 公众号id
+        openidCookieName: 'mix_openid', // 保存openid的cookie名字
+        appName: 'mix', // 公众号名字，后台需要有存他的appid和appsecret
+        appId: 'wx888048ccfc4491c8', // 公众号id
         baseRedirectUrl: location.href, // 回调url，即当前页面访问地址
         scope: 'snsapi_base',
-        projectName: 'jjcj', // 项目名称，统计记录用
+        projectName: 'mix_testapp', // 项目名称，统计记录用
         openidCb: function (openid, newShareLink) {
             // to be override
         }
